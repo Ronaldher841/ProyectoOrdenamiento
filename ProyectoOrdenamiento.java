@@ -1,3 +1,7 @@
+// Estudiante: Ronald Isaias Godinez Hernandez
+// Carnet: 202402155
+
+
 import Busqueda.BinarySearch;
 import Ordenamientos.BubbleSort;
 import Ordenamientos.EnhancedBubbleSort;
@@ -119,7 +123,7 @@ public class ProyectoOrdenamiento {
                     BinarySearch.opcionBinarySearch(listaDatos);
                     break;
                 case 8:
-                    CargarDatosCSV.opcionCargarDatos(listaDatos);
+                    System.out.println("👋 Saliendo del programa...");
                     break;
                 default:
                     System.out.println("⚠️ Opción no válida. Intente de nuevo.");
